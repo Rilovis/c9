@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE() # Akun Utama
-cl.login(token="EnnOPBbxvgSfGs7cNSUb.w6+8YbOkbOMyiHAGbC+hcW.ghMOEOTmO5N3MnLm+D2jMEmouI/Mfzk5GnChqrc1Ws8=")
+cl.login(token="EnZ2EjItngQCWQ20FEnb.w6+8YbOkbOMyiHAGbC+hcW.EttYS1Yrkw90MCS6SrrdjdI79Vva9M5FWoxUQDjqdV8=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Bot 1
