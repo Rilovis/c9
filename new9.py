@@ -6,50 +6,50 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE() # Akun Utama
-cl.login(token="EnZ2EjItngQCWQ20FEnb.w6+8YbOkbOMyiHAGbC+hcW.EttYS1Yrkw90MCS6SrrdjdI79Vva9M5FWoxUQDjqdV8=")
+cl.login(token="EojPc2BjaqmwvPectu39.jgY02CIPGDqPM37XBk1j2q.gr0rD2z3JGkOH8ENDCYQcukw+oPQflQMoQPXtfw8zNs=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Bot 1
-ki.login(token="EnL1tFwG9P4500L9mVhb.VQTBchP8LxZ1o0Ed5rS4AW.gU33GJtxYqMiYMBuLAP6v1YTnHMWBscGQd414xNWPzE=")
+ki.login(token="EoaKKC8ZmQ1x3xuruJze.ZyIijJ0iuSPM1n+hcx8+JG.MUOKk1Y+qlPlXEFhbx7xJko6w9d//LUtOnX0xOc1TAk=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Bot 2
-kk.login(token="EnzODyNNnFScnV52n6a1.wOe3+tIdNxRJik2Eaf7nOq.LX4cpb9PGhdhi8txVUnnZxr1xKNnx+Cmhe5pHESZQDs=")
+kk.login(token="EoMTTNIoqnA5S6A0HKI9.beSI/oCf3qHqjJ3W6S5rkq.HFYUTB6Uhvt65GWER9FUsvToRxhkVPJceV96z4PAXS8=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Bot 3
-kc.login(token="En8PVyNQz3C3gaeQKoUb.j0tevqX/kt6xRCOKoax7sW.I6a3PEawgIvyro0K2kxrLtp3wioU61LuNGYYC3dx05o=")
+kc.login(token="EoOikaAaaJDYzyB8Yr05.hCBYhI9aBK+qwilS+q/KXq.awXphuACHAeIUFuiwK4vEqzlcJMo7na+gY4dwa7E5Hw=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Bot 4
-ks.login(token="EnDU3YdWf3MNDDZsrjoc.64p7hMq5ZbXymY+T0gu3Na.bUNaMw2HCt0kiUbLQWz9gsAsc7TIFldxl4FCV6J1Deg=")
+ks.login(token="EoPWW3TvH2Mb5YghrYr3.OdYm6+QTvccurtz5zba4aW.fd3j8lgnqsrX8qOaAEWKGWry63ty7v3FIhpBH7m/zk8=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Bot 5
-ka.login(token="En5lbSZVN9shudiQfIUd.qcJOSgzQEpbuah+2LTD5Bq.wgcYccR2C4CQobihB/HTEysTCbZBNU8jgHgSWQ7TQT8=")
+ka.login(token="Eof3a7Qv6RkjWapSUfG0.NpBK6nc/CHkueSAzvEygua.ncZA4s763dbCB73DoeyDMx43cJLSwmkPCFJ3L0Y/P+w=")
 ka.loginResult()
 
 kb = LINETCR.LINE() #Bot 6
-kb.login(token="EnAM64zkzc82bGcMhci9.Eh+xAjKRse5Gp+veh562Mq.KHWCr1Nk0reE1NGF0PeQFzCB4phuZjAKlTeThQ02ln0=")
+kb.login(token="EoCfz9vJflFYWFiesu6a.gJuO6JQwaodXAr6dow8AEG.t8Q9klVhXbgytHhBEP4LxRcOSt2XO3gvO7rpErqkcFg=")
 kb.loginResult()
 
 ko = LINETCR.LINE() #Bot 7
-ko.login(token="EnoGw4okiF9gQYgpWCFa.ofPkasavZhLKD4OwvrsSMG.szy1Vb0eXAAQD4vPcbgnV4uE5LMWGDmple1El43V01I=")
+ko.login(token="EogkxUAXJqfA7xPtSmOf.HhcJ7540YTm2+i7ItHXzhW.xNXsZjseaz5nFoEeEPtetls84treij3pKwljGOrScV4=")
 ko.loginResult()
 
 ke = LINETCR.LINE() #Bot 8
-ke.login(token="EnBb5b6aj5BiUtEm9SYa.+swELSmclJDdUyMkvoatAG.ttBt+UH2gfTIbVkQ65q/bG2sw/gxrw+P1Zn0rZ0ev4Y=")
+ke.login(token="EojXKreYZMWRYi6RfAZ1.71gbM/i2pqRjcurUsZQXSq.Jcf0iCXDL7QvULJomG9VW8ypKYeMgNFFlbnRSRKVUj4=")
 ke.loginResult()
 
 ku = LINETCR.LINE() #Bot 9
-ku.login(token="EnW3KHhSBXfyHxeCAql6.PARWLiQ1yX8Ge7Tqgg1FbG.kZA9byE4FE9fChIMTWaFZT31ooobxt1zY7VPDFTDciw=")
+ku.login(token="EoB4wKpY1QZDoxywDuh3.L18AnxPjsgbRF8YzF0A4OW.6pGMpxIb5IczPcR4fbPQ9SJGnUN+2IUhxdEo/MGgSLc=")
 ku.loginResult()
 
 print "login success coyy..."
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" ^[BOT A.S.L^
+helpMessage =""" ^[BOT gua^
 OWNER ™Unknow™"""
 
 Setgroup =""" 
