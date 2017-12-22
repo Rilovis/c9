@@ -100,15 +100,15 @@ wait = {
     "dblack":False,
     "clock":False,
     "cName":" ",
-    "cName2":"™A.S.L™1 ",
-    "cName3":"™ASL™2 ",
-    "cName4":"™A.S.L™3 ",
-    "cName5":"™A.S.L™4 ",
-    "cName6":"™A.S.L™5 ",
-    "cName7":"™A S.L™6 ",
-    "cName8":"™A.S.L™7 ",
-    "cName9":"™A.S.L™8 ",
-    "cName10":"™A.S.L™9 ",
+    "cName2":" ",
+    "cName3":" ",
+    "cName4":" ",
+    "cName5":" ",
+    "cName6":" ",
+    "cName7":" ",
+    "cName8":"™ ",
+    "cName9":" ",
+    "cName10":"  ",
     "blacklist":{},
     "wblacklist":True,
     "dblacklist":True,
@@ -2602,11 +2602,11 @@ def bot(op):
               return
            ginfo = cl.getGroup(op.param1)
            random.choice(KAC).sendText(op.param1, "Selamat Datang Di Grup  " + str(ginfo.name))
-           random.choice(KAC).sendText(op.param1, "Founder kami Winna Bawel😂 tp baik ko😘")
-           random.choice(KAC).sendText(op.param1, " staff pembuat Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
-           random.choice(KAC).sendText(op.param1, "ANDI yg orang paling ganteng sedunia, tp kadang rada pe'a😁")
-           random.choice(KAC).sendText(op.param1, "FHIRA cwek jutex yg kalo ngomong medok😄😄")
-           random.choice(KAC).sendText(op.param1, "WHINDA si cwek polos, yg hoby nya m0lor doang😂😂😂")
+           #random.choice(KAC).sendText(op.param1, "Founder kami Winna Bawe😂 tp baik ko😘")
+           random.choice(KAC).sendText(op.param1, " pembuat Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
+           #random.choice(KAC).sendText(op.param1, "ANDI yg orang paling ganteng sedunia, tp kadang rada pe'a😁")
+           #random.choice(KAC).sendText(op.param1, "FHIRA cwek jutex yg kalo ngomong medok😄😄")
+           #random.choice(KAC).sendText(op.param1, "WHINDA si cwek polos, yg hoby nya m0lor doang😂😂😂")
            random.choice(KAC).sendText(op.param1,"Budayakan Baca Note !!! yah Ka 😊\nSemoga Betah Kk 😘")
            print "MEMBER HAS JOIN THE GROUP"
         if op.type == 15:
